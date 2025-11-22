@@ -1,7 +1,6 @@
-# RISC-n-Roll
-RISC-n-Roll is a Single Cycle RISC-V Processor for Hacknight 7.0 built from modular components.
+#RV32I
 
-Maintainer: [Pranav M](https://github.com/pranav0x0112)
+A single cycle RISC-V Processor.
 
 ## Modules
 
@@ -24,22 +23,5 @@ Click on a module name to see its folder and instructions:
 - [Sign_Extender](Sign_Extender/)
 - [Top](Top/)
 
-## Contribution Guidelines
-
-1. Fork the repo and work on **one module at a time**.
-2. Follow the **README inside each module folder** for detailed instructions.
-3. Submit a Pull Request (PR) with:
-   - `rtl.sv` (module implementation)
-   - `tb.sv` (testbench)
-   - Waveform screenshot showing correctness
-4. PRs will be **manually reviewed**. Incomplete submissions may be closed.
-
-## Tools / Recommendations
-
-- Recommended simulators: **Vivado, Quartus Lite, Verilator**
-- Windows users: Vivado / Quartus Lite preferred
-- Follow **naming conventions** strictly for smooth evaluation
-
 > [!TIP]
-> Contributors are encouraged to take a look at the processor diagram below to understand how the modules connect and interact within the single-cycle design.
 > ![RISC-V-Single-Cycle.png](https://i.postimg.cc/8C61F1RQ/RISC-V-Single-Cycle.png)
