@@ -1,4 +1,4 @@
-module riscvsingle(input logic clk, reset, input logic [31:0] Instr, ReadData, output logic MemWrite, output logic [31:0] PC, ALUResult, WriteData, ReadData);
+module riscvsingle(input logic clk, reset, input logic [31:0] Instr, ReadData, output logic MemWrite, output logic [31:0] PC, ALUResult, WriteData);
   
   logic ALUSrc, RegWrite, Jump, Zero, PCSrc;
   logic [1:0] ResultSrc, ImmSrc;
